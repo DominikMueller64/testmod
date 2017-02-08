@@ -1,0 +1,3 @@
+useDynLib(testmod)
+exportPattern("^[[:alpha:]]+")
+import(methods, Rcpp)
